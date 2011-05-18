@@ -1,2 +1,2 @@
-dancroak-twitter-search --source http://gems.github.com
+dancroak-twitter-search --version '0.5.8' --source http://gems.github.com
 
