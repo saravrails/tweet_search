@@ -1,0 +1,1152 @@
+/!\ FAILSAFE /!\  Wed May 18 15:17:19 +0530 2011
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/Ruby187/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:27:in `dispatch'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    c:/Ruby187/bin/mongrel_rails:19:in `load'
+    c:/Ruby187/bin/mongrel_rails:19
+/!\ FAILSAFE /!\  Wed May 18 15:17:43 +0530 2011
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/Ruby187/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:27:in `dispatch'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    c:/Ruby187/bin/mongrel_rails:19:in `load'
+    c:/Ruby187/bin/mongrel_rails:19
+/!\ FAILSAFE /!\  Wed May 18 15:18:56 +0530 2011
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/Ruby187/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:27:in `dispatch'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    c:/Ruby187/bin/mongrel_rails:19:in `load'
+    c:/Ruby187/bin/mongrel_rails:19
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:19:11) [GET]
+Rendering home/index
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #5 of app/views/home/index.html.erb:
+2: 	<%@tweets.each do |tweet|%>
+3: 		<tr><td>From:</td><td><%=tweet.from_user%></td></tr>
+4: 		<tr><td>Content</td><td><%=tweet.text%></td></tr>
+5: 		<tr><td>Created:</td><td><%=tweet.created_at.to_s(:db)%></td></tr>
+6: 		<tr><td colspan=2></td></tr>
+7: 	<%end%>
+8: </table>
+
+    app/views/home/index.html.erb:5:in `to_s'
+    app/views/home/index.html.erb:5
+    app/views/home/index.html.erb:2:in `each'
+    app/views/home/index.html.erb:2
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:19:35) [GET]
+Rendering home/index
+Completed in 2047ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:31:40) [GET]
+Rendering home/index
+Completed in 1234ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:31:50) [GET]
+Rendering home/index
+Completed in 1000ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:32:02) [GET]
+Rendering home/index
+Completed in 2031ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:34:10) [GET]
+Rendering home/index
+Completed in 2016ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-18 15:35:56) [GET]
+
+SyntaxError (f:/Projects/twitter_search/app/controllers/home_controller.rb:6: syntax error, unexpected tINTEGER, expecting tASSOC
+...since=>'2011-05-10', :rpp=1000)
+                              ^):
+  
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:36:04) [GET]
+Rendering home/index
+Completed in 3469ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:37:49) [GET]
+Rendering home/index
+Completed in 8156ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:38:55) [GET]
+Rendering home/index
+Completed in 3656ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:39:28) [GET]
+Rendering home/index
+Completed in 6422ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:39:49) [GET]
+Rendering home/index
+Completed in 4359ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:40:39) [GET]
+Rendering home/index
+Completed in 2828ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:46:32) [GET]
+Rendering home/index
+Completed in 2844ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:46:51) [GET]
+Rendering home/index
+Completed in 4797ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:47:08) [GET]
+Rendering home/index
+Completed in 4766ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:47:47) [GET]
+Rendering home/index
+Completed in 4875ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:48:02) [GET]
+Rendering home/index
+Completed in 1359ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:48:08) [GET]
+Rendering home/index
+Completed in 875ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:48:28) [GET]
+Rendering home/index
+Completed in 1781ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:48:45) [GET]
+Rendering home/index
+Completed in 3312ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:49:20) [GET]
+Rendering home/index
+Completed in 5328ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:49:39) [GET]
+Rendering home/index
+Completed in 1219ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:49:45) [GET]
+Rendering home/index
+Completed in 859ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:49:49) [GET]
+Rendering home/index
+Completed in 1047ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:49:53) [GET]
+Rendering home/index
+Completed in 1016ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:49:58) [GET]
+Rendering home/index
+Completed in 4531ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:51:22) [GET]
+Rendering home/index
+Completed in 4594ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:51:58) [GET]
+
+TwitterSearch::SearchServerError (Twitter responded with an error body: since date or since_id is too old):
+  c:/Ruby187/lib/ruby/gems/1.8/gems/dancroak-twitter-search-0.5.8/lib/twitter_search.rb:59:in `query'
+  app/controllers/home_controller.rb:6:in `index'
+
+Rendered rescues/_trace (93.7ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:52:24) [GET]
+
+TwitterSearch::SearchServerError (Twitter responded with an error body: since date or since_id is too old):
+  c:/Ruby187/lib/ruby/gems/1.8/gems/dancroak-twitter-search-0.5.8/lib/twitter_search.rb:59:in `query'
+  app/controllers/home_controller.rb:6:in `index'
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:52:29) [GET]
+
+TwitterSearch::SearchServerError (Twitter responded with an error body: since date or since_id is too old):
+  c:/Ruby187/lib/ruby/gems/1.8/gems/dancroak-twitter-search-0.5.8/lib/twitter_search.rb:59:in `query'
+  app/controllers/home_controller.rb:6:in `index'
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:52:42) [GET]
+Rendering home/index
+Completed in 6203ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:53:14) [GET]
+Rendering home/index
+Completed in 4406ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:53:29) [GET]
+Rendering home/index
+Completed in 4422ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:55:38) [GET]
+Rendering home/index
+Completed in 4672ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:56:17) [GET]
+Rendering home/index
+Completed in 1703ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:56:33) [GET]
+Rendering home/index
+Completed in 1078ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 15:56:40) [GET]
+Rendering home/index
+Completed in 4672ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 16:03:50) [GET]
+Rendering home/index
+Completed in 4484ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 16:04:11) [GET]
+Rendering home/index
+Completed in 1281ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 16:04:20) [GET]
+Rendering home/index
+Completed in 4219ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 16:04:40) [GET]
+Rendering home/index
+Completed in 4766ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 16:04:53) [GET]
+Rendering home/index
+Completed in 4750ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 16:05:11) [GET]
+Rendering home/index
+Completed in 1281ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 16:58:27) [GET]
+Rendering home/index
+Completed in 1625ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 16:59:07) [GET]
+Rendering home/index
+Completed in 1437ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 16:59:35) [GET]
+Rendering home/index
+Completed in 1453ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:00:25) [GET]
+Rendering home/index
+Completed in 1531ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:00:46) [GET]
+Rendering home/index
+Completed in 1375ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:01:04) [GET]
+Rendering home/index
+Completed in 1578ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:01:35) [GET]
+Rendering home/index
+Completed in 1719ms (View: 109, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:01:52) [GET]
+Rendering home/index
+Completed in 3781ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:08:06) [GET]
+Rendering home/index
+Completed in 4266ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:08:12) [GET]
+Rendering home/index
+Completed in 3906ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:08:32) [GET]
+Rendering home/index
+Completed in 4219ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:08:51) [GET]
+Rendering home/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:08:55) [GET]
+Rendering home/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:10:45) [GET]
+Rendering home/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:11:01) [GET]
+Rendering home/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:11:36) [GET]
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:13:03) [GET]
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:13:20) [GET]
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:13:31) [GET]
+Rendering home/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:13:42) [GET]
+Rendering home/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:14:19) [GET]
+Rendering home/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:14:36) [GET]
+Rendering home/index
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:15:32) [GET]
+Rendering home/index
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:15:51) [GET]
+Rendering home/index
+Completed in 62ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:16:07) [GET]
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:16:22) [GET]
+Rendering home/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:16:29) [GET]
+Rendering home/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:16:37) [GET]
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:16:51) [GET]
+Rendering home/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:18:37) [GET]
+Rendering home/index
+Completed in 5797ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Wed May 18 17:18:43 +0530 2011
+  Status: 500 Internal Server Error
+  ActionController::Session::CookieStore::CookieOverflow
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:102:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:27:in `dispatch'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    c:/Ruby187/bin/mongrel_rails:19:in `load'
+    c:/Ruby187/bin/mongrel_rails:19
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:18:56) [GET]
+Rendering home/index
+Completed in 3641ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Wed May 18 17:19:00 +0530 2011
+  Status: 500 Internal Server Error
+  ActionController::Session::CookieStore::CookieOverflow
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:102:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:27:in `dispatch'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    c:/Ruby187/bin/mongrel_rails:19:in `load'
+    c:/Ruby187/bin/mongrel_rails:19
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:19:26) [GET]
+Rendering home/index
+Completed in 3547ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Wed May 18 17:19:30 +0530 2011
+  Status: 500 Internal Server Error
+  ActionController::Session::CookieStore::CookieOverflow
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:102:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:27:in `dispatch'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    c:/Ruby187/bin/mongrel_rails:19:in `load'
+    c:/Ruby187/bin/mongrel_rails:19
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (78.1ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (156.2ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateSessions (20110518115056)
+  [4;35;1mSQL (62.5ms)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) NOT NULL, `data` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (140.6ms)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (140.6ms)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (78.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110518115056')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:36:34) [GET]
+Rendering home/index
+Completed in 5937ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:37:12) [GET]
+Rendering home/index
+Completed in 156ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:43:01) [GET]
+Rendering home/index
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:54:30) [GET]
+Rendering home/index
+Completed in 47ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 17:54:55) [GET]
+Rendering home/index
+Completed in 47ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 18:25:43) [GET]
+
+NoMethodError (undefined method `each' for #<TwitterSearch::Tweet:0x3413ac0>):
+  app/controllers/home_controller.rb:8:in `index'
+
+Rendered rescues/_trace (93.7ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 18:25:54) [GET]
+
+NoMethodError (private method `gsub!' called for Wed May 18 12:05:18 UTC 2011:Time):
+  c:/Ruby187/lib/ruby/1.8/date/format.rb:1061:in `_parse'
+  c:/Ruby187/lib/ruby/1.8/time.rb:240:in `parse'
+  app/controllers/home_controller.rb:9:in `index'
+  app/controllers/home_controller.rb:8:in `each'
+  app/controllers/home_controller.rb:8:in `index'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 18:26:14) [GET]
+Rendering home/index
+Completed in 234ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 18:26:45) [GET]
+Rendering home/index
+Completed in 172ms (View: 16, DB: 31) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 18:45:58) [GET]
+Rendering home/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-18 19:03:16) [GET]
+
+SyntaxError (f:/Projects/twitter_search/app/controllers/home_controller.rb:16: syntax error, unexpected kEND
+f:/Projects/twitter_search/app/controllers/home_controller.rb:27: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:05:16) [GET]
+Rendering home/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-18 19:06:03) [GET]
+
+SyntaxError (f:/Projects/twitter_search/app/controllers/home_controller.rb:16: syntax error, unexpected kEND
+f:/Projects/twitter_search/app/controllers/home_controller.rb:27: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:06:17) [GET]
+Rendering home/index
+Completed in 359ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:11:07) [GET]
+Rendering home/index
+Completed in 3719ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:11:40) [GET]
+Rendering home/index
+Completed in 3516ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:15:36) [GET]
+Rendering home/index
+Completed in 4500ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:16:11) [GET]
+Rendering home/index
+Completed in 4687ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:17:16) [GET]
+Rendering home/index
+Completed in 3562ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:17:48) [GET]
+Rendering home/index
+Completed in 3922ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:18:10) [GET]
+Rendering home/index
+Completed in 4484ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:18:25) [GET]
+Rendering home/index
+Completed in 4516ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:19:17) [GET]
+Rendering home/index
+Completed in 4187ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:19:43) [GET]
+Rendering home/index
+Completed in 3672ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:22:40) [GET]
+Rendering home/index
+Completed in 5469ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:27:31) [GET]
+Rendering home/index
+
+ActionView::TemplateError (undefined method `keys' for nil:NilClass) on line #42 of app/views/home/index.html.erb:
+39: 						x: -20
+40: 					},
+41: 					xAxis: {
+42: 						categories:  <%=@result.keys.inspect%>
+43: 					},
+44: 					yAxis: {
+45: 						title: {
+
+    app/views/home/index.html.erb:42
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:28:22) [GET]
+Rendering home/index
+Completed in 3859ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:28:41) [GET]
+Rendering home/index
+Completed in 4109ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:30:32) [GET]
+Rendering home/index
+Completed in 3172ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:32:38) [GET]
+Rendering home/index
+Completed in 4500ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:39:11) [GET]
+Rendering home/index
+Completed in 3078ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-05-18 19:39:41) [GET]
+Rendering home/index
+Completed in 3516ms (View: 0, DB: 0) | 200 OK [http://localhost/]
